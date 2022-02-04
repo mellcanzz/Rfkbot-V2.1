@@ -3,8 +3,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (text.length < 1) throw `Laporan terlalu pendek, minimal 5 huruf!`
     if (text.length > 1000) throw `Laporan terlalu panjang, maksimal 1000 karakter!`
     let teks = `*${command.toUpperCase()}!*\n\nDari : *@${m.sender.split`@`[0]}*\nwa.me/${m.sender.split`@`[0]}\n\nPesan : ${text}\n`
-    conn.reply(global.owner[0] + '@s.whatsapp.net', teks, m)
-    /*conn.reply(global.owner[0] + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+    conn.reply([6289505165400],[0] + '@s.whatsapp.net', teks, m)
+    /*conn.reply([6289505165400],[0] + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
         contextInfo: {
             mentionedJid: [m.sender]
         }
