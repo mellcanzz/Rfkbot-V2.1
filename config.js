@@ -22,7 +22,7 @@ global.prems = ['+1 (775) 403-5736','6289505165400','6282287750102'] // Premium 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com', 
-  rey: 'https://server-api-rey.herokuapp.com',
+  -: 'https://server-api-rey.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
@@ -33,7 +33,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey' (apikey kalian)
-  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://server-api-rey.herokuapp.com': '-',
   'https://api.xteam.xyz': 'Dawnfrostkey',
   'https://api.lolhuman.xyz': 'RFK-Rey',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
